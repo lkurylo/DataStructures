@@ -1,0 +1,19 @@
+{
+    "name": "single-linked-list",
+    "version": "1.0.0",
+    "description": "",
+    "main": "LinkedList.js",
+    "scripts": {
+        "test": "mocha --compilers js:babel-core/register --reporter min || ECHO ."
+    },
+    "keywords": [],
+    "author": "Łukasz Kuryło",
+    "license": "MIT",
+    "devDependencies": {
+        "babel-core": "^6.26.3",
+        "babel-preset-es2015": "^6.24.1",
+        "babel-register": "^6.26.0",
+        "chai": "^4.1.2",
+        "mocha": "^5.2.0"
+    }
+}
