@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --compilers js:babel-core/register --reporter min || ECHO ."
+    "test": "mocha --compilers js:babel-core/register --reporter min || ECHO .",
+    "test:watch": "mocha --watch --compilers js:babel-core/register --reporter min || ECHO ."
   },
   "author": "Łukasz Kuryło",
   "license": "MIT",
